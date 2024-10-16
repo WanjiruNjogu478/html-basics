@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+      /*design table, heading, data*/
+    table {
+        font-family: sans-serif;
+        border-collapse: collapse;  /*also separate*/
+        width: 100%;
+        max-width: 500px; /*maximum width of the table*/
+        border-radius: 10px;
+        margin: 20px auto; /*to centre the table*/
+        overflow: hidden; /*applies the rounded corners correctly*/
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-bottom: 2px solid seagreen;
+    }
+
+    td, th {
+      padding: 12px;
+      text-align: left;
+    }
+    tr:nth-child(4){
+        background-color: white;
+        color: black;
+        border-bottom: 2px solid green;
+    }
+
+
+    tr:nth-child(3) {
+      background-color: lightgrey;
+      color: seagreen;
+    }
+
+
+    tr:nth-child(2){
+      background-color: white;
+      color: black;
+    }
+
+    th {
+      background-color: #009874;
+      color: white;
+      font-size: 16px;
+      padding: 12px;
+    }
+
+    td {
+      font-size: 16px;
+    }
+
+    table, td, th{
+        border: none;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Points</th>
+    <th>Team</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Domenic</td>
+    <td>88,110</td>
+    <td>dcode</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Sally</td>
+    <td>72,400</td>
+    <td>Students</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Nick</td>
+    <td>52,300</td>
+    <td>dcode</td>
+  </tr>
+</table>
+
+</body>
+</html>
